@@ -12,5 +12,7 @@ public class Adder {
 
     int total = x + y;
     System.out.println("Sum of the numbers: " + total);
+
+    reader.close();
   }
 }
